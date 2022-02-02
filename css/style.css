@@ -218,7 +218,7 @@ ul {
 a:focus,
 a:hover {
 	text-decoration: none;
-	color:#4f2b78;
+	color:#fff;
 }
 
 button:focus,
@@ -1403,7 +1403,7 @@ body {
 }
 
 .loader .spinner .path {
-	stroke: #822982;
+	stroke: #6EC2EA;
 	stroke-linecap: round;
 	animation: dash 1.5s ease-in-out infinite
 }
@@ -8079,7 +8079,7 @@ div.datedropper .picker .pick-lg-b li {
 .hero-bg-5 {
 	background-image: url(../img/slider/slider1.jpg);
 	background-size: cover;
-	background-position: left top;
+	background-position: right  bottom;
 
 }
 
