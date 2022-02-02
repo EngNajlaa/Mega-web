@@ -4716,7 +4716,8 @@ div.datedropper .picker .pick-lg-b li {
 
 
 .img-bg {
-	background-image: url(../images/banner.jpg)
+	background-image: url(../img/banner.jpg);
+	background-position: center center;
 }
 
 .img-bg-2 {
@@ -6082,7 +6083,36 @@ div.datedropper .picker .pick-lg-b li {
 .card-image {
 	position: relative
 }
-
+.overlyimg{
+	background-color: rgba(0,0,0,0.6);
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0
+}
+.title-course{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);	
+}
+.title-course span{
+	color:#fff;
+}
+.title-course .title{
+	font-size: 22px;
+	background-color: rgba(129,179,242,0.5);
+}
+.title-course .sub-title{
+	font-size: 15px;
+	text-align: center;
+}
+.title-training{
+	font-size: 23px;
+    line-height: 1.4;
+	font-weight: bold;
+}
 .card-image .card-img-top {
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px
@@ -6154,7 +6184,7 @@ div.datedropper .picker .pick-lg-b li {
 }
 
 .course-badge.sky-blue {
-	background-color: #3aaae1
+	background-color: #32A0D4
 }
 
 .share-wrap {
